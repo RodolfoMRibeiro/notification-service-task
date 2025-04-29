@@ -51,6 +51,7 @@ As tasks são inicialmente criadas, armazenadas no **MongoDB**, e processadas po
 ## 🚀 Extra (Opcional)
 
 - Implementação dos mesmos endpoints via **gRPC** como alternativa ao REST.
+- Envio de notificação usando algum serviço de email, sms ou whatsapp.
 
 ---
 
