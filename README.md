@@ -36,6 +36,13 @@ As tasks são inicialmente criadas, armazenadas no **MongoDB**, e processadas po
 
 - Cada task é criada inicialmente com o status `pending`.
 - Após ser processada por um worker (que imprime uma mensagem no console), o status é alterado para `concluída`.
+- O payload da requisição tem que possuir:
+  -  Plataforma (Email, WhatsApp, SMS)
+  -  Destinatário: Nome do Destinatário ou endereço
+  -  Remetente: Nome de quem enviou a requisição
+  -  Conteúdo: Corpo da mensagem
+
+**OBS**: Não é necessário enviar a mensagem, apenas printar no console e alterar o status para `concluída`
 
 ---
 
